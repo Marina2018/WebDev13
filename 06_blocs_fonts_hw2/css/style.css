@@ -1,0 +1,93 @@
+@import url(../css/reset.css);
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.page {
+	width: 1500px;
+	height: 1400px;
+	background-image: url(../img/100.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Oswald', sans-serif;
+}
+.width_lending {
+	width: 800px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+	height: 50px;
+	background-color: #54d0ffab;
+}	
+
+.title_1 {
+	line-height: 50px;
+	vertical-align:middle;
+	text-align: center;
+	color: #FFFAFA;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+.img_section {
+	height: 300px;
+	background-color: #4682b4cc;
+	/* background-image: url(../img/img_01.jpg);
+	background-size: contain; */
+}
+
+.img_centre{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 300px;
+}
+
+.links_block {
+	height: 30px;
+	background-color: #54d0ffab;
+	line-height: 30px;
+	vertical-align:middle;
+	font-size: 15px;
+	padding-left: 10px;
+	
+}
+
+.link_links_block { 
+	color: #FFFAFA;
+	text-decoration: none;
+}
+/* 	a:visited.link_links_block {
+		color: #c3c3c3;
+	} 
+*/
+	a:hover.link_links_block { 
+		color: #0f738c;
+		text-decoration: underline;
+	}
+
+.text {
+	height: 320px;
+	background-color: #FFFAFA;
+	padding: 10px 20px 30px; /* Отступ сверху 10px, слева и справа 20px, снизу 30px */
+	color: #191970;
+	font-size: 15px;
+}
+
+.link_text {
+	color: #191970;
+	font-style: italic;
+	
+}
+
+.title_2 {
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 20px;
+}
+.footer_text {
+	font-size: 15px;
+	padding-left: 10px;
+	color: #FFFAFA;
+}
+

@@ -62,6 +62,6 @@ a {
 }
 
 .left a {
-  display: inline-block;
+  display: inline-block; /* в задании просто block */
   margin-top: 5px;
 }

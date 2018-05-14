@@ -1,0 +1,69 @@
+@import url(../css/reset.css);
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+.header {
+	height: 50px;
+	background-color: #54d0ffab;
+	display: flex;
+}	
+
+.title_1 {
+	line-height: 50px;
+	vertical-align:middle;
+	text-align: center;
+	color: #FFFAFA;
+	font-weight: bold;
+	font-size: 30px;
+	margin: auto;
+
+}
+.img_section {
+	height: 200px;
+	display: flex;	
+}
+
+.img_centre {
+	flex-grow: 1;
+}
+
+.text {
+	height: 140px;
+	background-color: #FFFAFA;
+	color: #191970;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	margin: auto 100px;
+}
+
+.title_2 {
+	font-weight: bold;
+	font-size: 25px;
+	margin: auto;
+}
+
+.title_2.quote {
+	font-style: italic;
+}
+
+.icons {
+	height: 120px;
+	width: : 60px;
+	display: flex;
+	align-items: center;
+	margin: auto 200px;
+}
+.icon {
+	height: 70px;
+	width: : 40px;
+	margin: auto;
+}
+
+.footer_text {
+	font-size: 15px;
+	padding-left: 10px;
+	color: #FFFAFA;
+	margin: auto;
+}
+
